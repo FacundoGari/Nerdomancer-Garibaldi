@@ -1,6 +1,6 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import ItemListContainer from '../components/CartWidget.js'
 
 const Navbar = () => {
     return (
@@ -16,11 +16,11 @@ const Navbar = () => {
                         <li class="nav-item">
                             <a class="nav-link"  aria-current="page" href="#home">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link"  href="#product">New Products</a>
-                        </li>
+                        
                         <li class="nav-item">
                             <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <li><button class="btn btn-light"><ItemListContainer/></button>
                         </li>
                     </ul>
                 </div>
@@ -29,6 +29,7 @@ const Navbar = () => {
                 <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
                 <span class="visually-hidden"> Page in progress</span>
             </button>
+            
         </nav>
     )
 }
