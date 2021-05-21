@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const ItemListContainerCard = () => {
     return (
         <div>
-            <h1>Nerdomancer!</h1>
+            <h1>Nerdomancer 3D!</h1>
         </div>
     )
 
