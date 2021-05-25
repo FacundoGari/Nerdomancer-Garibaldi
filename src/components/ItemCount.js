@@ -4,25 +4,11 @@ import { useState } from 'react';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
-//import CardGroup from 'react-bootstrap/Cardgroup';
 
 const ItemCount = ({initial, stock, onChange}) => {
 
-    
-    const [stockRequired, setStockRequired] = useState(initial);
+    const [stockRequired, setStockRequired] = useState(Number(initial));
     const [counter, setCounter] = useState(1);
-    //const changeCounter = (value) =>
-        //setCounter(counter + value);
-
-        function onChange(count) {
-            console.log(count);
-            }
-            
-    const onAdd = () => {
-        if (stock >= stockRequired + 1) {
-            setStockRequired(stockRequired + 1);
-        }
-    };
 
         return (
             <div>

@@ -1,10 +1,9 @@
 import './App.css';
 import 'core-js';
 import Navbar from './components/Navbar';
-//import CardWidget from './components/CartWidget';
-import ItemListContainerCard from './components/ItemListContainer';
+import ItemListContainer from './components/ItemListContainer';
 import ItemCount from './components/ItemCount';
-
+import promise from './components/ItemList';
 
 
 
@@ -15,7 +14,8 @@ function saveData(count){
   return (
     <div className="App">
     <Navbar/>
-    <ItemListContainerCard/>
+    <ItemListContainer/>
+    <promise/>
     <br></br>
     <ItemCount stock={5} initial={1} onChange={saveData} />
     </div>

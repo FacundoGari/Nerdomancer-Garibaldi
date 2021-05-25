@@ -1,11 +1,8 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-//import { useState } from 'react';
-//import Card from 'react-bootstrap/Card';
-//import Button from 'react-bootstrap/Button';
-//import ButtonGroup from 'react-bootstrap/ButtonGroup';
 
-const ItemListContainerCard = () => {
+
+const ItemListContainer = () => {
     return (
         <div>
             <h1>Nerdomancer 3D!</h1>
@@ -14,4 +11,4 @@ const ItemListContainerCard = () => {
 
 }
 
-export default ItemListContainerCard;
+export default ItemListContainer;

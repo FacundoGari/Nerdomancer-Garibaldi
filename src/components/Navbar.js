@@ -1,6 +1,6 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ItemListContainer from '../components/CartWidget.js'
+import CartWidget from '../components/CartWidget.js'
 
 const Navbar = () => {
     return (
@@ -20,7 +20,7 @@ const Navbar = () => {
                         <li class="nav-item">
                             <a class="nav-link" href="#contact">Contact</a>
                         </li>
-                        <li><button class="btn btn-light"><ItemListContainer/></button>
+                        <li><button class="btn btn-light"><CartWidget/></button>
                         </li>
                     </ul>
                 </div>
